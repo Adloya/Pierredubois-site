@@ -1,0 +1,20 @@
+{
+    "name": "Collège Pierre Dubois",
+    "short_name": "Pierre Dubois",
+    "start_url": ".",
+    "background_color": "#85b037",
+    "theme_color": "#85b037",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "assets/images/logo192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/images/logo512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

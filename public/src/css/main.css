@@ -1,0 +1,14 @@
+.warning {
+    background-color: rgba(248, 215, 218, 1);
+    border-color: rgba(220, 53, 69, 1);
+    color: rgba(114, 28, 36, 1);
+}
+.footer {
+    bottom: 0;
+}
+
+header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+}

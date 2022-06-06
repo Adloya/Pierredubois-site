@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collège Pierre Dubois</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <script src="src/js/pages.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="src/css/local_boostrap.css">
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#85b037">
+    <link rel="apple-touch-icon" href="assets/images/logo192.png">
+    <script src="src/js/index.js"></script>
+    <!-- <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDDLbd2vNtUNntJwjqr4X7Ys5R2RhcmV_4",
+          authDomain: "pierredubois-site.firebaseapp.com",
+          projectId: "pierredubois-site",
+          storageBucket: "pierredubois-site.appspot.com",
+          messagingSenderId: "643366336735",
+          appId: "1:643366336735:web:0256cfd0d57848c52bd16a",
+          measurementId: "G-95SP6FD5KV"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+      <script src="src/js/firestore.js" defer></script> -->
+</head>
+<body class="bg-slate-900">
+    <!-- Create a absolute header -->
+    <header class="bg-slate-800 shadow-lg text-slate-400">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center p-5">
+            <div class="flex-1">
+                    <img src="./assets/images/logoPdubois-full.png" alt="logo" class="h-12 cursor-pointer" id="homepageBtn">
+            </div>
+            <div class="flex-1 text-right">
+                <a href="#twitter" class="mx-5 border-[1px] p-2 transition-all text-slate-400 rounded-mdtransition-all hover:text-slate-900 hover:bg-slate-400 rounded-md border-slate-400" id="twBtn">Posts</a>
+                <a href="#youtube" class="mx-5 border-[1px] p-2 transition-all text-slate-400 rounded-mdtransition-all hover:text-slate-900 hover:bg-slate-400 rounded-md border-slate-400" id="ytBtn">Videos</a>
+                <a href="#dubnews" class="mx-5 border-[1px] p-2 transition-all text-slate-400 rounded-mdtransition-all hover:text-slate-900 hover:bg-slate-400 rounded-md border-slate-400" id="dubnewsBtn">Dub'news</a>
+                <a href="#news" class="mx-5 border-[1px] p-2 transition-all text-slate-400 rounded-mdtransition-all hover:text-slate-900 hover:bg-slate-400 rounded-md border-slate-400" id="allnewsBtn">Actualités</a>
+            </div>
+        </div>
+    </header>
+    <img src="./assets/images/illustration/banner.jpg" id="banner">
+    <section class="w-max" id="homepage_page">
+        <div id="discoverSchool" class="ml-10 mt-10 mb-10">
+            <h1 class="text-slate-300 text-6xl mb-2">Voici le Collège Pierre Dubois</h1>
+            <p class="text-slate-400 mb-[1px] mt-5">Le collège Pierre Dubois est un collège engagé en matière d'écologie, situé au centre de la ville de Laval et</p>
+            <p class="text-slate-400 mb-5">doté de nombreux diplomes et engagé dans des projets écologiques tels que e3D et CubeS.</p>
+            <iframe width="594" height="334" class="rounded-2xl inline" src="https://www.youtube.com/embed/46jNN2F6iO4" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img src="assets/images/illustration/College.webp" alt="Photo du collège" class="inline-block mx-5 rounded-2xl" width="300">
+            <img src="assets/images/illustration/College2.jpg" alt="Photo du collège" class="inline-block mx-5 rounded-2xl" width="250">
+        </div>
+        <a href="https://view.genial.ly/61470af5ae7dec0dd432d180/presentation-entree-du-college-debut-de-visite" class="inline text-slate-400 ml-10 p-5 rounded-md border-[1px] transition-all hover:text-slate-900 hover:bg-slate-400 border-slate-400">Découvrir le collège en 360°</a>
+        <a href="https://www.youtube.com/c/Coll%C3%A8gePierreDubois" class="inline text-slate-400 ml-10 p-5 rounded-md border-[1px] transition-all hover:text-slate-900 hover:bg-slate-400 border-slate-400"><i class="bi bi-youtube"></i></a>
+        <a href="https://twitter.com/CLG_Dubois_53" class="inline text-slate-400 ml-10 p-5 rounded-md border-[1px] transition-all hover:text-slate-900 hover:bg-slate-400 border-slate-400"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.facebook.com/Coll%C3%A8ge-Pierre-Dubois-104631384968776/" class="inline text-slate-400 ml-10 p-5 rounded-md border-[1px] transition-all hover:text-slate-900 hover:bg-slate-400 border-slate-400"><i class="bi bi-facebook"></i></a>
+        <div class="border-[1px] ml-10 mt-10  p-2 mb-10 rounded-md w-[400px]">
+            <h1 class="text-slate-300 text-2xl">Collège Pierre Dubois</h1>
+            <h4 class="text-slate-400 text-sm">71 Rue Victor Boissel, 53000 Laval</h4>
+            <h4 class="text-slate-400 text-sm">Tel. : <a href="tel:+33243530312" class="underline">02 43 53 03 12</a> - E-Mail : <a href="mailto:ce.0530015d@ac-nantes.fr" class="underline">ce.0530015d@ac-nantes.fr</a></h4>
+        </div>
+        <!-- <div id="newsContainer" class="ml-10 mt-10 mb-10 p-2 shadow-lg text-[16px]  border-[1px] warning rounded-md">
+            <p>!! Les parties "News" & "Tweets" sont en construction, que ce soit sur la page principale ou sur les pages spécifiques</p>
+        </div> -->
+    </section>
+    <section class="w-0 h-0 scale-0" id="twitter_page">
+        <div class="bg-white">
+            <h1>twitter</h1>
+        </div>
+    </section>
+    <section class="w-0 h-0 scale-0" id="youtube_page">
+        <div class="bg-white">
+            <h1>youtube</h1>
+        </div>
+    </section>
+    <section class="w-0 h-0 scale-0" id="dubnews_page">
+        <div class="bg-white">
+            <h1>dubnews</h1>
+        </div>
+    </section>
+    <section class="w-0 h-0 scale-0" id="allnews_page">
+        <div class="bg-white">
+            <h1>allnews</h1>
+        </div>
+    </section>
+    <!-- Footer with e3D & Pdubois logos  -->
+    <footer class="footer bg-slate-800 p-5 shadow-lg">
+        <h1 class="text-slate-600 text-xs">Ce site n'est aucunement affilié au Collège Pierre Dubois ni à aucune institution publique et/ou privée</h1>
+        <h1 class="text-slate-400">Créé avec ❤ par Adloya</h1>
+    </footer>
+</body>
+</html>
